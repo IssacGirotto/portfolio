@@ -1,0 +1,76 @@
+/* Redefinindo as margens e espaçamentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* Estilo para o cabeçalho e navegação */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+/* Estilizando a lista de navegação */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+/* Estilo dos itens da lista */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+/* Estilo para os links de navegação */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Estilo das seções da página */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilo para os títulos das seções */
+h1 {
+    margin-bottom: 15px;
+}
+/* Estilo dos formulários */
+form {
+    display: flex;
+    flex-direction: column; 
+}
+/* Estilo dos rótulos dos campos do formulário */
+form label {
+    margin: 5px 0; 
+}
+/* Estilo para os campos de entrada (input) e textarea */
+form input, form textarea {
+    padding: 10px; 
+    margin: 5px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+} 
+/* Estilo do botão de envio */
+button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Efeito hover (quando o mouse passa sobre o botão) */
+button:hover {
+    background-color: #555;
+}
+
